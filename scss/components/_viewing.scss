@@ -1,0 +1,18 @@
+#viewing {
+    .viewing__container {
+        width: 90%;
+        margin: auto;
+        padding: 1.5rem 0 0 0;
+        h2 {
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 1.47em;
+            color: #505763;
+        }
+        .owl2 {
+            position: relative;
+            @include card ();
+            @include owlNav ();
+        }
+    }
+}

@@ -1,0 +1,52 @@
+#logo {
+    background-color: #f7f8fa;
+    .logo__container {
+        width: 80%;
+        margin: auto;
+        .title {
+            p {
+                color: #686f7a;
+                font-size: 13px;
+                padding-top: 16px;
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+        }
+        .logo__item {
+            text-align: center;
+            margin-bottom: 2rem;
+            a {
+                margin: 0 2rem;
+            }
+        }
+        .student {
+            .item1 {
+                border-right: 1px solid #dedfe0;
+            }
+            .student__item {
+                width: 50%;
+                text-align: center;
+                padding: 28px 30px;
+                h4 {
+                    font-size: 19px;
+                    font-weight: 700;
+                    line-height: 1.47em;
+                    color: #505763;
+                    a {
+                        text-decoration: none;
+                        color: #505763;
+                    }
+                }
+                .btn-primary {
+                    color: #fff;
+                    background-color: #ec5252;
+                    border: 1px solid transparent;
+                    &:hover {
+                        background-color: #992337;
+                        transition: all 0.5s;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="./lib/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./lib/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-md bg-light navbar-dark">
+            <div class="col-md-7">
+                <div class="left">
+                    <!-- Brand -->
+                    <a class="logo navbar-brand" href="#">
+                        <img src="./images/img/logo-coral.svg" alt="">
+                    </a>
+
+                    <div class="categories">
+                        <i class="fas fa-th"></i>
+                        <span>Categories</span>
+                    </div>
+
+                    <form>
+                        <div class="input-group">
+                            <input class="form-control" type="text" placeholder="Search for anything">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="right">
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Udemy for Business</a>
+                            </li>
+                            <li class="nav-item border-right">
+                                <a class="nav-link" href="#">Teach on Udemy</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn btn-login">Login</button>
+                                <button class="btn btn-danger">Sign up</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <section id="carousel">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-md-5">
+                    <h1>Learn on your schedule</h1>
+                    <p>Study any topic, anytime. Choose from thousands of expert-led courses now.</p>
+                    <form>
+                        <div class="input-group">
+                            <input class="form-control" type="text" placeholder="What do you want to learn?">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- udemy_works -->
+    <section id="udemy__works">
+        <div class="d-flex justify-content-around">
+            <div class="item">
+                <div class="udemy__works__text d-flex">
+                    <div style="margin-right: 1rem; font-size: 2rem;">
+                        <i class="fas fa-spinner"></i>
+                    </div>
+                    <div>
+                        <h5>100,000 online courses</h5>
+                        <p>Explore a variety of fresh topics</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="udemy__works__text d-flex">
+                    <div style="margin-right: 1rem; font-size: 2rem;"><i class="fab fa-gg-circle"></i></div>
+                    <div>
+                        <h5>Expert instruction</h5>
+                        <p>Find the right instructor for you</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="udemy__works__text d-flex">
+                    <div style="margin-right: 1rem; font-size: 2rem;"><i class="fab fa-stumbleupon-circle"></i></div>
+                    <div>
+                        <h5>Lifetime access</h5>
+                        <p>Learn on your schedule</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills-hub-unit -->
+    <section id="skills">
+        <div class="row skills__container">
+            <div class="col-md-4 description d-flex align-items-center">
+                <div>
+                    <h4>The world’s largest selection of courses</h4>
+                    <p>Choose from over 100,000 online video courses with new additions published every month</p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="container">
+                    <!-- Nav pills -->
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="pill" href="#business">Business</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#design">Design</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#photography">Photography</a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div id="business" class="container tab-pane active"><br>
+                            <div class="owl1 owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_1.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>The Complete Foundation Stock Trading Course</h6>
+                                                <p>Mohsen Hassan, Chris Dutton</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$134.99</span>
+                                                    <p>$15.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_2.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>Microsoft Power BI - Up & Running With Power BI Desktop</h6>
+                                                <p>Maven Analytics, Bloom Team</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$94.99</span>
+                                                    <p>$10.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_3.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>MBA in a Box: Business Lessons from a CEO</h6>
+                                                <p>365 Careers</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$109.99</span>
+                                                    <p>$12.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_4.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>Agile Crash Course: Agile Project Management; Agile Delivery</h6>
+                                                <p>Maurucio Rubio</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$109.99</span>
+                                                    <p>$12.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_1.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>The Complete Foundation Stock Trading Course</h6>
+                                                <p>Mohsen Hassan, Chris Dutton</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$134.99</span>
+                                                    <p>$15.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_2.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>Microsoft Power BI - Up & Running With Power BI Desktop</h6>
+                                                <p>Maven Analytics, Bloom Team</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$94.99</span>
+                                                    <p>$10.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_3.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>MBA in a Box: Business Lessons from a CEO</h6>
+                                                <p>365 Careers</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$109.99</span>
+                                                    <p>$12.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_4.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>Agile Crash Course: Agile Project Management; Agile Delivery</h6>
+                                                <p>Maurucio Rubio</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$109.99</span>
+                                                    <p>$12.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="design" class="container tab-pane fade"><br>
+                            <div class="owl1 owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_8.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>The Complete Foundation Stock Trading Course</h6>
+                                                <p>Mohsen Hassan, Chris Dutton</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$134.99</span>
+                                                    <p>$15.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1-7.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>Microsoft Power BI - Up & Running With Power BI Desktop</h6>
+                                                <p>Maven Analytics, Bloom Team</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$94.99</span>
+                                                    <p>$10.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_6.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>MBA in a Box: Business Lessons from a CEO</h6>
+                                                <p>365 Careers</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$109.99</span>
+                                                    <p>$12.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_5.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>Agile Crash Course: Agile Project Management; Agile Delivery</h6>
+                                                <p>Maurucio Rubio</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$109.99</span>
+                                                    <p>$12.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_2.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>The Complete Foundation Stock Trading Course</h6>
+                                                <p>Mohsen Hassan, Chris Dutton</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$134.99</span>
+                                                    <p>$15.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1-7.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>Microsoft Power BI - Up & Running With Power BI Desktop</h6>
+                                                <p>Maven Analytics, Bloom Team</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$94.99</span>
+                                                    <p>$10.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_3.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>MBA in a Box: Business Lessons from a CEO</h6>
+                                                <p>365 Careers</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$109.99</span>
+                                                    <p>$12.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_6.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>Agile Crash Course: Agile Project Management; Agile Delivery</h6>
+                                                <p>Maurucio Rubio</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$109.99</span>
+                                                    <p>$12.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="photography" class="container tab-pane fade"><br>
+                            <div class="owl1 owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_5.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>The Complete Foundation Stock Trading Course</h6>
+                                                <p>Mohsen Hassan, Chris Dutton</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$134.99</span>
+                                                    <p>$15.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_3.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>Microsoft Power BI - Up & Running With Power BI Desktop</h6>
+                                                <p>Maven Analytics, Bloom Team</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$94.99</span>
+                                                    <p>$10.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_8.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>MBA in a Box: Business Lessons from a CEO</h6>
+                                                <p>365 Careers</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$109.99</span>
+                                                    <p>$12.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_2.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>Agile Crash Course: Agile Project Management; Agile Delivery</h6>
+                                                <p>Maurucio Rubio</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$109.99</span>
+                                                    <p>$12.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_1.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>The Complete Foundation Stock Trading Course</h6>
+                                                <p>Mohsen Hassan, Chris Dutton</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$134.99</span>
+                                                    <p>$15.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1-7.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>Microsoft Power BI - Up & Running With Power BI Desktop</h6>
+                                                <p>Maven Analytics, Bloom Team</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$94.99</span>
+                                                    <p>$10.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_1.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>MBA in a Box: Business Lessons from a CEO</h6>
+                                                <p>365 Careers</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$109.99</span>
+                                                    <p>$12.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                                            data-placement="right">
+                                            <img src="./images/img/owl1_5.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h6>Agile Crash Course: Agile Project Management; Agile Delivery</h6>
+                                                <p>Maurucio Rubio</p>
+                                                <div class="rating d-flex align-items-center">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5
+                                                    </p>
+                                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                                </div>
+                                                <div class="price d-flex align-items-center justify-content-end">
+                                                    <span>$109.99</span>
+                                                    <p>$12.99</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- values-props -->
+    <section id="values">
+        <div class="values__container">
+            <div class="d-flex">
+                <div class="item">
+                    <div class="values__card d-flex">
+                        <div class="image d-flex align-items-start mr-3">
+                            <img src="./images/img/go_own_pace.svg">
+                        </div>
+                        <div class="body">
+                            <h5>Go at your own pace</h5>
+                            <p>Enjoy lifetime access to courses on Udemy’s website and app</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="values__card d-flex">
+                        <div class="image d-flex align-items-start mr-3">
+                            <img src="./images/img/learn_from_experts.svg">
+                        </div>
+                        <div class="body">
+                            <h5>Learn from industry experts</h5>
+                            <p>Select from top instructors around the world</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="values__card d-flex">
+                        <div class="image d-flex align-items-start mr-3">
+                            <img src="./images/img/video_courses.svg">
+                        </div>
+                        <div class="body">
+                            <h5>Find video courses on almost any topic</h5>
+                            <p>Build your library for your career and personal growth</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- viewing -->
+    <section id="viewing">
+        <div class="viewing__container">
+            <h2>Students are viewing</h2>
+            <div class="owl2 owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card">
+                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                            data-placement="right">
+                            <img src="./images/img/owl1_5.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h6>The Complete Foundation Stock Trading Course</h6>
+                                <p>Mohsen Hassan, Chris Dutton</p>
+                                <div class="rating d-flex align-items-center">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5</p>
+                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                </div>
+                                <div class="price d-flex align-items-center justify-content-end">
+                                    <span>$134.99</span>
+                                    <p>$15.99</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                            data-placement="right">
+                            <img src="./images/img/owl1_2.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h6>Microsoft Power BI - Up & Running With Power BI Desktop</h6>
+                                <p>Maven Analytics, Bloom Team</p>
+                                <div class="rating d-flex align-items-center">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5</p>
+                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                </div>
+                                <div class="price d-flex align-items-center justify-content-end">
+                                    <span>$94.99</span>
+                                    <p>$10.99</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                            data-placement="right">
+                            <img src="./images/img/owl1_3.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h6>MBA in a Box: Business Lessons from a CEO</h6>
+                                <p>365 Careers</p>
+                                <div class="rating d-flex align-items-center">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5</p>
+                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                </div>
+                                <div class="price d-flex align-items-center justify-content-end">
+                                    <span>$109.99</span>
+                                    <p>$12.99</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                            data-placement="right">
+                            <img src="./images/img/owl1_6.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h6>Agile Crash Course: Agile Project Management; Agile Delivery</h6>
+                                <p>Maurucio Rubio</p>
+                                <div class="rating d-flex align-items-center">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5</p>
+                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                </div>
+                                <div class="price d-flex align-items-center justify-content-end">
+                                    <span>$109.99</span>
+                                    <p>$12.99</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                            data-placement="right">
+                            <img src="./images/img/owl1_1.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h6>The Complete Foundation Stock Trading Course</h6>
+                                <p>Mohsen Hassan, Chris Dutton</p>
+                                <div class="rating d-flex align-items-center">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5</p>
+                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                </div>
+                                <div class="price d-flex align-items-center justify-content-end">
+                                    <span>$134.99</span>
+                                    <p>$15.99</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                            data-placement="right">
+                            <img src="./images/img/owl1-7.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h6>Microsoft Power BI - Up & Running With Power BI Desktop</h6>
+                                <p>Maven Analytics, Bloom Team</p>
+                                <div class="rating d-flex align-items-center">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5</p>
+                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                </div>
+                                <div class="price d-flex align-items-center justify-content-end">
+                                    <span>$94.99</span>
+                                    <p>$10.99</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                            data-placement="right">
+                            <img src="./images/img/owl1_8.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h6>MBA in a Box: Business Lessons from a CEO</h6>
+                                <p>365 Careers</p>
+                                <div class="rating d-flex align-items-center">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5</p>
+                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                </div>
+                                <div class="price d-flex align-items-center justify-content-end">
+                                    <span>$109.99</span>
+                                    <p>$12.99</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <a tabindex="0" id="pover-card" data-toggle="popover" data-trigger="focus"
+                            data-placement="right">
+                            <img src="./images/img/owl1_4.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h6>Agile Crash Course: Agile Project Management; Agile Delivery</h6>
+                                <p>Maurucio Rubio</p>
+                                <div class="rating d-flex align-items-center">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <p style="font-size: 13px; margin: 0 4px; font-weight: bold;">4.5</p>
+                                    <p style="font-size: 12px; color: #686f7a;">(17,931)</p>
+                                </div>
+                                <div class="price d-flex align-items-center justify-content-end">
+                                    <span>$109.99</span>
+                                    <p>$12.99</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- banner -->
+    <section id="banner">
+        <div class="banner__top__border"></div>
+        <div class="d-flex align-items-center justify-content-center" style="height: 360px;">
+            <div class="banner__container">
+                <h3>Get personalized recommendations</h3>
+                <p>Answer a few questions for your top picks</p>
+                <button class="btn btn-primary"><a href="#">Get started</a></button>
+                <i class="fas fa-photo-video" style="top: 10%; left: 10%;"></i>
+                <i class="fab fa-affiliatetheme" style="top: 10%; left: 30%;"></i>
+                <i class="fas fa-gavel" style="top: 10%; left: 50%;"></i>
+                <i class="fas fa-sitemap" style="top: 10%; left: 70%;"></i>
+                <i class="fas fa-file-contract" style="top: 10%; left: 90%;"></i>
+                <i class="fas fa-snowboarding" style="top: 50%; left: 20%;"></i>
+                <i class="fab fa-acquisitions-incorporated" style="top: 50%; right: 20%;"></i>
+                <i class="fab fa-500px" style="bottom: 10%; left: 10%;"></i>
+                <i class="fas fa-align-left" style="bottom: 10%; left: 30%;"></i>
+                <i class="fas fa-anchor" style="bottom: 10%; left: 50%;"></i>
+                <i class="fas fa-balance-scale" style="bottom: 10%; left: 70%;"></i>
+                <i class="fas fa-bullseye" style="bottom: 10%; left: 90%;"></i>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- categories -->
+    <section id="categories">
+        <div class="categories__container">
+            <h3>Top categories</h3>
+            <div class="d-flex" style="margin-top: 1rem;">
+                <div class="categories__item">
+                    <div>
+                        <i class="far fa-file-code"></i>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <p>Development</p>
+                    </div>
+                </div>
+                <div class="categories__item">
+                    <div>
+                        <i class="far fa-chart-bar"></i>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <p>Business</p>
+                    </div>
+                </div>
+                <div class="categories__item">
+                    <div>
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <p>IT and Software</p>
+                    </div>
+                </div>
+                <div class="categories__item">
+                    <div>
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <p>Design</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex" style="margin-top: 1rem;">
+                <div class="categories__item">
+                    <div>
+                        <i class="far fa-file-code"></i>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <p>Marketing</p>
+                    </div>
+                </div>
+                <div class="categories__item">
+                    <div>
+                        <i class="far fa-chart-bar"></i>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <p>Personal Development</p>
+                    </div>
+                </div>
+                <div class="categories__item">
+                    <div>
+                        <i class="fas fa-record-vinyl"></i>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <div class="categories__item">
+                    <div>
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <p>Music</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section id="testimonials">
+        <div class="testimonials__container">
+            <h3>What our students have to say</h3>
+            <div class="testimonials__content">
+                <div class="owl3 owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="d-flex align-items-center" style="margin-bottom: 1.5rem;">
+                            <img src="./images/img/tesnial_1.jpg">
+                            <h5>Borivoje</h5>
+                        </div>
+                        <p>Udemy is a life saver. I don't have the time or money for a college education. My goal is to
+                            become a freelance web developer, and thanks to Udemy, I'm really close.</p>
+                    </div>
+                    <div class="item">
+                        <div class="d-flex align-items-center" style="margin-bottom: 1.5rem;">
+                            <img src="./images/img/tesnial_2.jpg">
+                            <h5>Dipesh</h5>
+                        </div>
+                        <p>I believe in lifelong learning and Udemy is a great place to learn from experts. I've learned
+                            a lot and recommend it to all my friends.</p>
+                    </div>
+                    <div class="item">
+                        <div class="d-flex align-items-center" style="margin-bottom: 1.5rem;">
+                            <h3>K</h3>
+                            <h5>Kathy</h5>
+                        </div>
+                        <p>My children and I LOVE Udemy! The courses are fantastic and the instructors are so fun and
+                            knowledgeable. I only wish we found it sooner.</p>
+                    </div>
+                    <div class="item">
+                        <div class="d-flex align-items-center" style="margin-bottom: 1.5rem;">
+                            <img src="./images/img/tesnial_4.jpg">
+                            <h5>Zulaika</h5>
+                        </div>
+                        <p>I work in project management and joined Udemy because I get great courses for less. The
+                            instructors are fantastic, interesting, and helpful. I plan to use Udemy for a long time!
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="d-flex align-items-center" style="margin-bottom: 1.5rem;">
+                            <img src="./images/img/tesnial_5.jpg">
+                            <h5>Marco</h5>
+                        </div>
+                        <p>Thank you Udemy! You've renewed my passion for learning and my dream of becoming a web
+                            developer.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="d-flex align-items-center" style="margin-bottom: 1.5rem;">
+                            <h3>J</h3>
+                            <h5>Justin</h5>
+                        </div>
+                        <p>The best part about Udemy is the selection. You can find a course for anything you want to
+                            learn!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- logo -->
+    <section id="logo">
+        <div class="logo__container">
+            <div class="title">
+                <p>Trusted by companies of all sizes</p>
+            </div>
+            <div class="logo__item">
+                <a href="#"><img src="./images/img/booking.svg"></a>
+                <a href="#"><img src="./images/img/volkswagen.svg"></a>
+                <a href="#"><img src="./images/img/mercedes.svg"></a>
+                <a href="#"><img src="./images/img/pinterest.svg"></a>
+                <a href="#"><img src="./images/img/adidas.svg"></a>
+                <a href="#"><img src="./images/img/eventbrite-logo.svg"></a>
+            </div>
+            <div class="student d-flex">
+                <div class="student__item item1">
+                    <h4><a href="#">Become an instructor</a></h4>
+                    <p>Top instructors from around the world teach millions of students on Udemy. We provide the tools
+                        and skills to teach what you love.</p>
+                    <button class="btn btn-primary">Start teaching today</button>
+                </div>
+                <div class="student__item">
+                    <h4><a href="#">Udemy for Business</a></h4>
+                    <p>Get unlimited access to 4,000+ of Udemy’s top courses for your team.</p>
+                    <button class="btn btn-primary">Get Udemy for Business</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer__container d-flex">
+            <div class="footer__left d-flex justify-content-between">
+                <div class="footer__item">
+                    <ul>
+                        <li><a href="#" style="font-weight: 700;">Udemy for Business</a></li>
+                        <li><a href="#" style="font-weight: 700;">Teach on Udemy</a></li>
+                        <li><a href="#">Udemy app</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <ul>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Help and Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <ul>
+                        <li><a href="#">Affiliate</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Featured courses</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__right text-right">
+                <!-- Default dropup button -->
+                <div class="btn-group dropup">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-globe-asia" style="margin-right: 1rem;"></i>English
+                    </button>
+                    <div class="dropdown-menu" style="min-width: 0; padding: 0.5rem;">
+                        <a href="#">Tiếng Việt</a>
+                        <a href="#">Tiếng Anh</a>
+                        <a href="#">Tiếng Pháp</a>
+                        <a href="#">Tiếng Nga</a>
+                        <a href="#">Tiếng Mỹ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__logo">
+            <div class="footer_logo_container d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <a href="#">
+                        <img src="./images/img/logo-coral.svg" alt="">
+                    </a>
+                    <p>Copyright © 2020 Udemy, Inc.</p>
+                </div>
+
+                <div>
+                    <ul class="d-flex align-items-center" style="margin: 0;">
+                        <li style="margin-right: 1rem;"><a>Terms</a></li>
+                        <li><a>Privacy Policy and Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- popover -->
+    <div class="popover-content" style="display: none;">
+        <div id="popover-card" class="">
+            <div class="card text-center" style="margin: -10px -15px; border:0;">
+                <div class="card-header bg-warning text-white h3">
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Special title treatment</h4>
+                    <p class="card-text">Using data-trigger="focus" causes the popover to
+                        close when you click away. Options are hover|focus|click</p>
+                    <a href="#" class="btn btn-secondary">Go somewhere</a>
+                </div>
+                <div class="card-footer text-muted bg-warning text-right">
+                    <small class="text-white">
+                        2 days ago
+                    </small>
+                </div>
+            </div><!-- /card -->
+        </div><!-- /popover-card-content -->
+    </div><!-- /popover-content -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <!-- owl-carousel -->
+    <script src="./lib/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+        $('.owl1').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+        $('.owl2').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        })
+        $('.owl3').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $('[data-toggle="popover"]').popover({
+            trigger: 'hover',
+            html: true,
+            content: function () {
+                var id = $(this).attr('id')
+                return $('#po' + id).html();
+            }
+        })
+    </script>
+</body>
+
+</html>

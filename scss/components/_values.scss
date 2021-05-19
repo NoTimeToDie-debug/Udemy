@@ -1,0 +1,15 @@
+#values {
+    background-color: #f2f3f5;
+    padding: 2rem 0;
+    .values__container {
+        width: 80%;
+        margin: auto;
+        height: auto;
+        .item {
+            background-color: white;
+            padding: 2rem;
+            margin: 0 1rem;
+            width: 33.33%;
+        }
+    }
+}
